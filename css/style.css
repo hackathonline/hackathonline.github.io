@@ -1,0 +1,58 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+@import url('https://fonts.googleapis.com/css?family=Chivo|Playfair+Display:700&display:400,700:=swap');
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+	font-size: inherit;
+}
+h1, h2, h3, h4, h5 {
+	font-family: "Playfair Display", serif;
+}
+body, p, h6 {
+	font-family: Chivo, sans-serif;
+}
+.img-logo {
+	height: 60px;
+	width: 60px;
+}
+.img-prototipo {
+	width: 70%;
+	height: auto;
+}
+.bg-roxo {
+	background-color: #443a68;
+}
+.text-roxo {
+	color: #443a68;
+}
+.bg-cinza {
+	background-color: #fafafa;
+}
+.bg-verde {
+	background-color: #3a9c31;
+}
+.text-verde {
+	color: #3a9c31;
+}
+.middle {
+	margin-top: 25%;
+}
+.collection, .collection .collection-item {
+	border: 0px;
+}
+@media only screen and (max-width: 1000px) {
+  .middle {
+    margin-top: 0;
+  }
+  .img-prototipo {
+	width: 50%;
+	height: auto;
+  }
+}
