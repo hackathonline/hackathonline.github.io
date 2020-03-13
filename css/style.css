@@ -35,7 +35,7 @@ body, p, h6 {
 .bg-cinza {
 	background-color: #fafafa;
 }
-.bg-verde {
+.bg-verde, .bg-verde:hover {
 	background-color: #3a9c31;
 }
 .text-verde {
@@ -50,6 +50,12 @@ body, p, h6 {
 #acessar-mob {
 	display: none;
 }
+.img-logo-mob {
+  display: none;
+}
+nav .brand-logo {
+	padding-left: 20px;
+}
 @media only screen and (max-width: 1000px) {
   .middle {
     margin-top: 0;
@@ -60,5 +66,8 @@ body, p, h6 {
   }
   #acessar-mob {
 	display: inherit;
+  }
+  .img-logo {
+	  display: none;
   }
 }
